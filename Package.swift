@@ -15,9 +15,9 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/pboudoin/Sliders-SwiftUI.git" , from: "1.0.3"),
-        .package(url: "https://github.com/pboudoin/SwiftUI-Shapes.git", from: "1.0.4"),
-        .package(url: "https://github.com/pboudoin/CGExtender.git", from: "1.0.3")
+        .package(name:"Sliders-SwiftUI", url: "https://github.com/pboudoin/Sliders-SwiftUI.git" , from: "1.0.3"),
+        .package(name:"SwiftUI-Shapes",url: "https://github.com/pboudoin/SwiftUI-Shapes.git", from: "1.0.4"),
+        .package(name:"CGExtender",url: "https://github.com/pboudoin/CGExtender.git", from: "1.0.3")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
